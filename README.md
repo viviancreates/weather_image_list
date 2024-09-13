@@ -17,17 +17,18 @@ configure do
 end
 ```
 
-## Description
-The To Do List Weather App is a Ruby application that provides current weather and generates an image based on vibe (either by city or temp idk yet) to visually represent the conditions. Additionally, the app lets the user enter their plans for the day based on weather.
+## Vivian's Weather App Description
+Vivian's Weather App is a Ruby application that provides current weather and generates an image to visually represent the conditions of the weather.
 
 ## Installation
 1. Clone the repo
 2. Install the gems
-3. Run the app with ruby app.rb
+3. Run the app with bin/server
+4. View app on a port
 
 ## Features
 - Displays current weather by city
-- Generate image
-- To do list
+- Generate image based on weather
 
 WEATHER_API_KEY
+SERP_API_KEY

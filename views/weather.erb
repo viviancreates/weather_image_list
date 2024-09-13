@@ -5,4 +5,13 @@
 <p>Humidity: <%= @weather_data["rh"] %>%</p>
 <p>Wind Speed: <%= @weather_data["wind_spd"] %> m/s</p>
 
+<div>
+<% if @image_url %>
+  <h2>Current Weather Looks Like:</h2>
+  <img src="<%= @image_url %>" alt="<%= @description %>">
+<% else %>
+  <p>No image available for "<%= @description %>".</p>
+<% end %>
+</div>
+
 <a href="/">New City Please!</a>
