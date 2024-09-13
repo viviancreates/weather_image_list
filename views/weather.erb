@@ -1,0 +1,8 @@
+<h1>Weather in <%= @city %></h1>
+
+<p>Temperature: <%= @weather_data["temp"] %>°C</p>
+<p>Description: <%= @weather_data["weather"]["description"] %></p>
+<p>Humidity: <%= @weather_data["rh"] %>%</p>
+<p>Wind Speed: <%= @weather_data["wind_spd"] %> m/s</p>
+
+<a href="/">New City Please!</a>
